@@ -1,0 +1,85 @@
+
+.container{
+    width: 1116px;
+}
+#Growth-section {
+    padding: 128px 0px;
+}
+
+.Growth-title h2 {
+    color: #010311;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.8px;
+}
+.Growth-title span {
+    color: #00BABA;
+}
+.Growth-text p {
+
+color: #808188;
+font-family: 'Lexend Deca', sans-serif;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 33px; 
+padding-left: 54px;
+}
+
+*{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+}
+.Growth-list {
+    padding-top: 77px;
+}
+.Growth-list ul li {
+    padding: 0px 32px;
+  position: relative;
+}
+.Growth-list ul li::after, .Growth-list ul li::before {
+    position: absolute;
+    top: -14px;
+    background-color: #00BABA;
+    content: "";
+    width: 17px;
+    height: 51px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+}
+.Growth-list ul li::after{
+    left: 32px;
+
+}
+.Growth-list ul li::before {
+    right: 32px; 
+}
+.Growth-list ul li span{
+    color: #808188;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; 
+padding: 12px 34px;
+transition: .5s;
+}.Growth-list ul li span:hover{
+    color: #010311;
+    border-top: dashed 2px gainsboro ;
+    border-bottom: dashed 2px gainsboro ;
+}
+.Growth-list ul li:hover::after, .Growth-list ul li:hover::before {
+    opacity: 1;
+    visibility: visible;
+}
+.Growth-detailes {
+    margin-bottom: 48px;
+}
